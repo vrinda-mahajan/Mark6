@@ -5,15 +5,16 @@
 }
 
 :root {
-  --primary: #f2c94c;
-  --black: #333333;
+  --primary: #bae8e8;
+  --black: #272343;
   --width-break: 600px;
 }
 
 body {
   margin: 0;
   font-family: "Kalam", cursive;
-  color: #333333;
+  color: #272343;
+  background-color: #e3f6f5;
 }
 
 nav {

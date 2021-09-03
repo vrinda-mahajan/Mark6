@@ -16,7 +16,7 @@ function handleClick() {
   var inputText = txtInput.value;
   fetch(getTranslationURL(inputText))
     .then((response) => response.json())
-    .then((json) => (outputDiv.innerText = json.contents.translated))
+    .then((json) => console.log(json))
     .catch(errorHandler);
 }
 
